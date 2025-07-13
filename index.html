@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Passionssite - Kagan Turist</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <a href="index.html">
+            <img class="logo" src="img/logo.webp" alt="Logo" />
+          </a>
+          <ul class="nav-links">
+            <li><a href="#intro">INTRO</a></li>
+            <li><a href="#gallery">GALLERI</a></li>
+            <li><a href="#video">VIDEO</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero_section">
+        <script
+          src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+          type="module"
+        ></script>
+        <dotlottie-player
+          src="https://lottie.host/a98a1433-4a2b-4883-be09-d6e065c3150d/c8fEsYZ86h.lottie"
+          background="transparent"
+          speed="1"
+          style="width: 1200px; width: 100%"
+          loop
+          autoplay
+        ></dotlottie-player>
+      </section>
+
+      <section id="intro" class="grid1-1">
+        <div>
+          <h1>En passion som busvognmand</h1>
+          <h2>Thomas Ryg Kagan</h2>
+          <p>
+            Thomas Kagan er 52 år gammel og bor i Roskilde, hvor han også er
+            vokset op. Han lever et travlt liv som ejer af busselskabet Kagan
+            Turist, der tilbyder busrejser til både længere udlandsrejser,
+            koncerter og andre arrangementer. Selvom han i dag er busvognmand,
+            var det ikke hans oprindelige karrierevej. <br />Thomas startede sin
+            professionelle rejse som skolelærer og arbejdede som lærer i seks
+            år, før han valgte at skifte retning og starte sin egen forretning.
+            <br />I dag driver han et busselskab, der ikke kun leverer transport
+            til store begivenheder som koncerter, festivaler og arrangementer,
+            men også arrangerer både indlands- og udlandsrejser for folk, der
+            ønsker at komme ud og opleve noget nyt. Kagan Turist tilbyder
+            specialiserede rejser, der giver kunderne mulighed for at opdage nye
+            destinationer og få unikke oplevelser.
+          </p>
+        </div>
+        <div class="billede1_container">
+          <img class="billede1" src="img/quote.webp" alt="Portræt med quote" />
+          <div class="overlay">
+            "Vi kører faktisk kun i Mercedes-Benz busser, fordi kunden skal have
+            det bedste."
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <h2>Billede Galleri</h2>
+        <div class="grid_gallery">
+          <img
+            class="billede2"
+            src="img/portrait.webp"
+            alt="Portræt foran bus"
+          />
+          <img
+            class="billede3"
+            src="img/bus_inside.webp"
+            alt="Bus midtergang"
+          />
+          <img class="billede4" src="img/bus.webp" alt="placeholder image" />
+          <img
+            class="billede5"
+            src="img/kagan_turist.webp"
+            alt="placeholder image"
+          />
+        </div>
+      </section>
+
+      <section id="video">
+        <h2>Video</h2>
+        <div class="grid1-1_video">
+          <video width="560" height="315" controls poster="img/tumbnail.webp">
+            <source
+              src="video/en_passion_som_busvognmand_gokval.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/gpwEpYEWbXA?si=3oMfdqEWjRkaaR01"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&#169;Celina Sguazzino</p>
+    </footer>
+  </body>
+</html>
